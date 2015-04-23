@@ -17,8 +17,9 @@ Functionality Currently implemented:
 
 ## Live Demo
 http://timedemo.gregsomers.com/
-Username: demo
-Password: demo
+
+- Username: demo
+- Password: demo
 
 ## Requirements
 
