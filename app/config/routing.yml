@@ -1,0 +1,37 @@
+freelancer_tools_payment:
+    resource: "@FreelancerToolsPaymentBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+freelancer_tools_invoicing:
+    resource: "@FreelancerToolsInvoicingBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+freelancer_tools_report:
+    resource: "@FreelancerToolsReportBundle/Controller/"
+    type:     annotation
+    prefix:   /
+    
+freelancer_tools_frontend:
+    resource: "@FreelancerToolsFrontendBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+FreelancerToolsCoreBundle:
+    resource: "@FreelancerToolsCoreBundle/Resources/config/routing.yml"
+
+freelancer_tools_time_tracker:
+    resource: "@FreelancerToolsTimeTrackerBundle/Controller/"
+    type:     annotation
+    prefix:   /
+    
+
+payum_capture:
+    resource: "@PayumBundle/Resources/config/routing/capture.xml"
+
+payum_authorize:
+    resource: "@PayumBundle/Resources/config/routing/authorize.xml"
+
+payum_notify:
+    resource: "@PayumBundle/Resources/config/routing/notify.xml"
