@@ -31,6 +31,7 @@ class AppKernel extends Kernel
             new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
             new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
             new Payum\Bundle\PayumBundle\PayumBundle(),
+            new Bmatzner\FontAwesomeBundle\BmatznerFontAwesomeBundle(),
             //core application
             new FreelancerTools\CoreBundle\FreelancerToolsCoreBundle(),
             new FreelancerTools\TimeTrackerBundle\FreelancerToolsTimeTrackerBundle(),
